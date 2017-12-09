@@ -5,8 +5,7 @@ It contains a exact copy of the optimized implementation and the additional impl
 Other software included in the submission, but copyrighted by others, is not included.
 
 
-Supersingular Isogeny Key Encapsulation software
-================================================
+# Supersingular Isogeny Key Encapsulation software
 
 This document describes basic instructions to compile and test the
 software implementations accompanying the Supersingular Isogeny Key
@@ -26,8 +25,7 @@ All of the code is available under the MIT License.
   (Florida Atlantic University).
 
 
-1. CONTENT:
-   -------
+## CONTENT
 
 The SIKE submission includes implementations for three security levels.
 The corresponding schemes are called SIKEp503, SIKEp751, and SIKEp964.
@@ -55,15 +53,13 @@ In this README, we describe basic instructions to compile and test the
 software implementations in the folders "Optimized_Implementation" and
 "Additional_Implementations".
 
-COMPLEMENTARY CRYPTO FUNCTIONS:
-------------------------------
+### COMPLEMENTARY CRYPTO FUNCTIONS
 
 Random values are generated with /dev/urandom. Check the folder
 <implementation>/<SIKEp#>/random for details.
 
 
-2. QUICK INSTRUCTIONS:
-   ------------------
+## QUICK INSTRUCTIONS
 
 Instructions in this section apply only to the optimized implementation
 and the assembly-optimized implementations.  Regarding the reference
@@ -97,8 +93,7 @@ Compilation is performed with GNU GCC by default. To change these
 values, use compilation options as described in the next section.
 
 
-3. ADDITIONAL OPTIONS
-   ------------------
+### ADDITIONAL OPTIONS
 
 For the optimized implementations, we have the following compilation
 options: 
@@ -119,8 +114,7 @@ and then setting the corresponding flags above accordingly.
 Note: USE_ADX can only be set to TRUE if USE_MULX=TRUE.
 
 
-4. LICENSE:
-   -------
+## LICENSE
 
 The SIKE software is licensed under the MIT License; see License.txt for
 details.  It includes some third party modules that are licensed
@@ -135,8 +129,7 @@ differently. In particular:
 - <implementation>/<SIKEp#>/sha3/fips202.c: public domain
 
 
-Contributors
-------------
+## Contributors
 
 Other contributors include:
 
