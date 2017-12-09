@@ -1,9 +1,10 @@
  
-# This software is part of "Supersingular Isogeny Key Encapsulation", submission to the NIST Post-Quantum Standardization project.
+## This software is part of "Supersingular Isogeny Key Encapsulation" [1], a submission to the NIST Post-Quantum Standardization project.
 It contains a exact copy of the optimized implementation and the additional implementations for x64 developed by Microsoft Research.
 
 Other software included in the submission, but copyrighted by others, is not included.
 
+[1] Reza Azarderakhsh, Matthew Campagna, Craig Costello, Luca De Feo, Basil Hess, Amir Jalali, Brian Koziel, Brian LaMacchia, Patrick Longa, Michael Naehrig, Joost Renes, Vladimir Soukharev, and David Urbanik, "Supersingular Isogeny Key Encapsulation". Submission to the NIST Post-Quantum Standardization project (to appear soon), 2017.
 
 # Supersingular Isogeny Key Encapsulation software
 
