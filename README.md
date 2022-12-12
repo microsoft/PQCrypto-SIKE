@@ -1,4 +1,10 @@
- 
+# Warning
+
+The SIKE protocol was proven insecure after a series of attacks starting with a paper by [`Castryck and Decru`](https://eprint.iacr.org/2022/975). 
+Therefore, SIKE MUST NOT be used in production.
+
+The software in this repository is only presented for historical reasons, and because some functionality may be reusable in other cryptographic applications.
+
 ## This software is part of "Supersingular Isogeny Key Encapsulation" [1], a submission to the NIST Post-Quantum Standardization project.
 It contains a exact copy of the optimized implementation and the additional implementations for x64 developed by Microsoft Research.
 
